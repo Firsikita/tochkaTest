@@ -69,8 +69,6 @@ def parse(lines: list) -> State:
         rooms.append(tuple(col))
 
     hall = tuple(['.'] * 11)
-    print(rooms)
-    print(IDX_ROOM)
     return (hall, tuple(rooms))
 
 
